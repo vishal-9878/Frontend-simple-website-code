@@ -1,0 +1,55 @@
+.modelsPage {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  .logoutButton {
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    padding: 10px 20px;
+    background-color: #f5a81a;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logoutButton:hover {
+    background-color: #fcce17;
+  }
+  
+  .modelList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .modelCard {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    /* Adjust width to ensure flexibility */
+    width: calc(33.33% - 20px); /* Adjust the width as per your design needs */
+    /* The above calculation ensures each card takes roughly 1/3 of the container width */
+    max-width: 300px; /* Optional: Set a maximum width if needed */
+  }
+  
+  .modelImage {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .modelImage:hover {
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    margin-bottom: 2100px;
+    color: white;
+  }
+  
