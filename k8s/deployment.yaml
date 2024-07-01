@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: vishalsingh9878/frontend-simple-website-code::latest
+        image: vishalsingh9878/frontend-simple-website-code:latest
         ports:
         - containerPort: 3000
 
