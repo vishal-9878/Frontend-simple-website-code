@@ -8,8 +8,7 @@ const App = () => {
       <h2>Welcome to my AWS Project</h2>
       <nav className={styles.nav}>
         <ul>
-          <li><Link to="/signup" className={styles.link}>REGISTER</Link></li>
-          <li><Link to="/signin" className={styles.link}>LOGIN</Link></li>
+          <li><Link to="/fireworks" className={styles.link}>FIRE</Link></li>
         </ul>
       </nav>
     </div>
