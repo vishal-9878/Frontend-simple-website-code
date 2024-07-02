@@ -1,20 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-app
+  name: frontend-deployment
+  labels:
+    app: frontend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test-app
+      app: frontend
   template:
     metadata:
       labels:
-        app: test-app
+        app: frontend
     spec:
       containers:
-      - name: test-app
+      - name: frontend
         image: vishalsingh9878/frontend-simple-website-code:latest
         ports:
         - containerPort: 3000
+
 
